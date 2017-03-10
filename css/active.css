@@ -1,0 +1,29 @@
+.active-events .event{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+}
+.active-events .event-title{
+	margin: 0 0 8px 0;
+	padding: 0;
+}
+.active-events .event-date{
+	margin: 0 0 5px 0;
+	font-weight: bold;
+}
+.active-events .event-location{
+	font-size: 0.875em;
+	text-align: right;
+}
+.active-events p{
+	display: block;
+	width: 100%;
+}
+.active-events .clearfix:before,.active-events .clearfix:after{
+	content: " ";
+	display: table;
+}
+
+.active-events p span{
+	
+}
