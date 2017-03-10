@@ -1,17 +1,6 @@
 # Active.com Events
-Contributors: rousseln
 
-Requires at least: 4
-
-Tested up to: 4.3
-
-License: GPL v2
-
-License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
-
-##Description
-
-Display events from `active.com`. The results can be limited to customize the data displayed.
+Display events from `active.com` on your WordPress site using a widget. The results can be limited to customize the data displayed.
 
 You can limit the results by:
 
@@ -33,13 +22,11 @@ You can limit the results by:
 ```
 
 ## Frequently Asked Questions
-Q: How do I use this plugin?
+* Q: How do I use this plugin?
+  * A: You can use it as a widget or as a shortcode
 
-A: You can use it as a widget or as a shortcode
-
-Q: What is the shortcode?
-
-A: [activeevents query=SEARCH+TEXT city=CITY state=STATE zip=00000 country=COUNTRY start_date=YYYY-MM-DD limit=5]
+* Q: What is the shortcode?
+  * A: [activeevents query=SEARCH+TEXT city=CITY state=STATE zip=00000 country=COUNTRY start_date=YYYY-MM-DD limit=5]
 
 ## Change log
 ###1.0

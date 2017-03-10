@@ -7,7 +7,7 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 ## Description
 
-Display events from `active.com`. The results can be limited to customize the data displayed.
+Display events from `active.com` on your WordPress site using a widget. The results can be limited to customize the data displayed.
 
 You can limit the results by:
 
