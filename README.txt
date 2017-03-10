@@ -5,21 +5,32 @@ Tested up to: 4.3
 License: GPL v2
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
-Display latest events from an active.com account.
+Display events from active.com. The results can be limited to customize the data displayed.
+
+You can limit the resuts by:
+
+* Search Query
+* City
+* State
+* Zip
+* Country
+* Event Start Date
+* Number
 
 == Installation ==
-Extract active-events-widget.zip
-Upload to your WordPress plugins folder
-Go to /wp-admin and select Plugins
-Find Active.com Events and activate
+1. Connect by FTP
+2. Extract active-com-wp-widget.zip locally
+3. Upload the folder to your WordPress plugins folder
+4. Go to /wp-admin and select Plugins
+5. Find Active.com Events and activate
 
 
 == Frequently Asked Questions ==
-How do I use this plugin?
-You can use it as a widget or as a shortcode
+Q: How do I use this plugin?
+A: You can use it as a widget or as a shortcode
 
-What is the shortcode?
-[activeevents limit=5 api=ADD-YOUR-API-TOKEN]
+Q: What is the shortcode?
+A: [activeevents query=SEARCH+TEXT city=CITY state=STATE zip=00000 country=COUNTRY start_date=YYYY-MM-DD limit=5]
 
 == Changelog ==
 1.0
